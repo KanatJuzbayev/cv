@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
   <title>Kanat Juzbayev CV</title>
 </head>
   <body>
@@ -22,6 +25,15 @@
         <h3>About Me:</h3>
         <p>I am 32, from South Kazakhstan - Shymkent, not married. I am engaged in railway transportation. I have been studying programming for the last year. This is a very interesting area for me. Finished a couple of courses in front-end and backend. Now I'm studying in RSS</p>
         <ul class="list">
+          <li>Code sample:
+            <pre><code class="html">
+              //Credit Card Mask
+              
+              function maskify(cc) {
+                return cc.length <= 4 ? cc : '#'.repeat(cc.length - 4) + cc.substring(cc.length - 4).toString();
+              }
+            </code></pre>
+          </li>
           <li>Education: bachelor of telecommunications</li>
           <li>English: Pre-intermediate</li>
           <li>Hobby: Marathon Run</li>
