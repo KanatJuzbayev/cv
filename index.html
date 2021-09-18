@@ -27,10 +27,10 @@
         <ul class="list">
           <li>Code sample:
             <pre><code class="html">
-              //Credit Card Mask
+              Credit Card Mask
 
               function maskify(cc) {
-                return cc.length <= 4 ? cc : '#'.repeat(cc.length - 4) + cc.substring(cc.length - 4).toString();
+                return cc.length < = 4 ? cc : '#'.repeat(cc.length - 4) + cc.substring(cc.length - 4).toString();
               }
             </code></pre>
           </li>
