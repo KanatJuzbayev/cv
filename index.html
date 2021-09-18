@@ -27,10 +27,16 @@
         <ul class="list">
           <li>Code sample:
             <pre><code class="html">
-              Credit Card Mask
+              Make a function that does arithmetic!
 
-              function maskify(cc) {
-                return cc.length < = 4 ? cc : '#'.repeat(cc.length - 4) + cc.substring(cc.length - 4).toString();
+              function arithmetic(a, b, operator) {
+                var ab = {
+                  'add': a + b,
+                  'subtract': a - b,
+                  'multiply': a*b,
+                  'divide': a/b
+                }
+                return ab[operator];
               }
             </code></pre>
           </li>
