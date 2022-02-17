@@ -1,5 +1,10 @@
 body {
   font-family: "Open Sans", Verdana, sans-serif;
+
+  letter-spacing: 0.5px;
+}
+
+p {
 }
 
 .wrapper {
@@ -42,12 +47,17 @@ body {
   color: black;
 }
 
+.link:hover {
+  color: #12B7B6;
+}
+
 .ico-github {
   width: 50px;
   margin-right: 15px;
 }
 
 .rs-school-js {
+  visibility: hidden;
   width: 70px;
   margin-right: 15px;
 }

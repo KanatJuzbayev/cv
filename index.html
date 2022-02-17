@@ -23,51 +23,60 @@
       <h2 class="outer">Kanat Juzbayev</h2>
       <section>
         <h3>About Me:</h3>
-        <p>I am 32, from South Kazakhstan - Shymkent, not married. I am engaged in railway transportation. I have been studying programming for the last year. This is a very interesting area for me. Finished a couple of courses in front-end and backend. Now I'm studying in RSS</p>
-        <ul class="list">
-          <li>Code sample:
-            <pre><code class="html">
-              Make a function that does arithmetic!
-
-              function arithmetic(a, b, operator) {
-                var ab = {
-                  'add': a + b,
-                  'subtract': a - b,
-                  'multiply': a*b,
-                  'divide': a/b
-                }
-                return ab[operator];
-              }
-            </code></pre>
-          </li>
-          <li>Education: bachelor of telecommunications</li>
-          <li>English: Pre-intermediate</li>
-          <li>Hobby: Marathon Run</li>
+        <p>Hi. I am 32, live in Аlmaty.<br>
+          I know JavaScript, TypeScript and I'm learning React. Earlier I wrote a little PHP.<br>
+          I can use SASS and Webpack.<br>
+          Not much experience yet. But I'm determined to work on it.
+        </p>
+        <p>Here are examples of work done as part of training and working projects: </p>
+        <ul>
+          <li><a class="link" target="_blank" href="https://foxcargo.kz/">Fox Cargo - Company website</a></li>
+          <li><a class="link" target="_blank" href="https://kanatjuzbayev-momentum.netlify.app/">Momentum - analogue of the application with the same name</a></li>
+          <li><a class="link" target="_blank" href="https://kanatjuzbayev-museum.netlify.app/">Landing page of the Louvre</a></li>
+          <li><a class="link" target="_blank" href="https://kanatjuzbayev-drum-kit.netlify.app/">Drum-Kit</a></li>
         </ul>
+
+        <div>Code sample:
+          <pre><code class="html">
+            Rearrange Number to Get its Maximum
+
+            var maxRedigit = function(num) {
+              if (num < 100 || num > 999) {
+              return null;
+              }
+              return parseInt(num.toString().split('').sort().reverse().join(''));
+            };
+          </code></pre>
+        </div>
+
+        <p>Education: Bachelor of telecommunications <br>
+          English: Pre-intermediate <br>
+          Hobby: Marathon Run
+        </p>
+
         <article class="contacts">
           <h3>Contacts:</h3>
           <ul class="list">
-            <li>Tel: <a href="tel:+77079009392"> +77079009392</a></li>
-            <li>Email: <a href="mailto:kanat.juzbayev@gmail.com?subject=feedback">kanat.juzbayev@gmail.com</a></li>
+            <li>Tel: <a class="link" href="tel:+77079009392"> +77079009392</a></li>
+            <li>Email: <a class="link" href="mailto:kanat.juzbayev@gmail.com?subject=feedback">kanat.juzbayev@gmail.com</a></li>
           </ul>
         </article>
         <h3>The address:</h3>
-        <p>Kazakhstan, Almaty, First of builders street, 5/2</p>
+        <p>Kazakhstan, Almaty, Nurkent, 5/2</p>
       </section>
     </main>
 
     <footer>
       <div class="wrapper footer_wrapper">
-        <a class="link" href="https://github.com/KanatJuzbayev">
+        <a class="link" target="_blank" href="https://github.com/KanatJuzbayev">
           <img class="ico-github" src="img/ico-github.svg" alt="GitHub">
           Kanat Juzbayev
         </a>
-        <p>Copyright © 2021</p>
+        <p>2022</p>
         <a class="link" href="https://rs.school/js/">
           <img class="rs-school-js" src="img/rs-school-js.svg" alt="rs-school-js">
         </a>
       </div>
-
     </footer>
   </body>
 </html>
